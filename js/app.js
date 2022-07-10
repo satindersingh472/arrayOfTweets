@@ -1,4 +1,5 @@
 // twitter is the array and it has some objects 
+// twitter is an array with objects inside it
 let twitter = [
     {
         user_age: 18,
@@ -105,7 +106,6 @@ while(counter < twitter.length){
     counter++;
 }     
 // now the for lop will check the tweets for authors under 18
-counter = 0;
 for (counter = 0; counter < twitter.length; counter++){
     if(twitter[counter][`user_age`] < 18){
          // following console.log will print date and author name for the twitter
